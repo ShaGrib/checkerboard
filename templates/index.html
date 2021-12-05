@@ -7,6 +7,15 @@
     <title>Checkerboard</title>
     <!-- linking a css style sheet -->
     <link rel='stylesheet' type='text/css' href='{{ url_for('static', filename='style.css') }}'>
+    <style>
+        .color1 {
+            background-color: {{color1}};
+        }
+        
+        .color2 {
+            background-color: {{color2}};
+        }   
+    </style>
 </head>
 <body>
     <table>
